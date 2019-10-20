@@ -30,7 +30,7 @@ class stack:#定义一个栈类
             print(i)
     def out(self,m):#出栈函数，尾部出栈,m为出栈操作次数,返回操作后列表，用于调用退栈后列表
         a=len(self.lst)
-        if m>a  m<=0:
+        if m>a or m<=0:
             print('error')
         else:
             for i in range(0,m):
